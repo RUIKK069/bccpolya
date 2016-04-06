@@ -1,6 +1,6 @@
 Calculo de uma aproximação da raiz quadrada de um numero real.
 
-n= X.X, Y=X;
+n= X*X, Y=X;
 
 INICIAR                                                                                                                                 
    LER numeros [n,X,Y];                                                                                                                  
