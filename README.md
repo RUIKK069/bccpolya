@@ -1,4 +1,2 @@
- all: main
- 
- clear: 
-     rm -f main.c
+Calculo de uma aproximação da raiz quadrada de um numero real
+
