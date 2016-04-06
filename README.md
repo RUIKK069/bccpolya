@@ -10,7 +10,7 @@ INICIAR
   ESCREVA numero [n]
 FIM
 
-[UpLoading Fluxograma.png]
+https://github.com/RUIKK069/bccpolya/blob/master/
 
 George Polya,Matematico húngaro, falava que "uma grande descoberta resolve um grande problema";How to solve it.
   
