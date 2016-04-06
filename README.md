@@ -1,13 +1,15 @@
-Calculo de uma aproximação da raiz quadrada de um numero real.
+Dscrição do problema:
+   Calculo de uma aproximação da raiz quadrada de um numero real.
 
-n= X*X, Y=X;
+Apresentação da solução em linguagem matematica:
+   
 
-INICIAR                                                                                                                                 
+ INICIAR                                                                                                                                 
    LER numeros [n,X,Y];                                                                                                                  
     VARIAVEL [n];                                                                                                                        
     n ENTAO X E X;                                                                                                                       
     Y ENTAO Y;                                                                                                                           
-    ESCREVA numero [n];                                                                                                                  
+    ESCREVA numero [n];                                                                                                                 
 FIM
 
 https://github.com/RUIKK069/bccpolya/blob/master/
