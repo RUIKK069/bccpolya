@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-int n,Y,X;
+int n,X,Y;
 
 scanf("%d",&n);
-X*X=n;
+n=(X*X);
 Y=X;
 printf("%d\n",Y);
 
