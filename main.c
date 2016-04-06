@@ -4,7 +4,7 @@ int main(void)
 {
 double n,X,Y;
 scanf("%1f",&n);
-X*X=n;
+X=n/X;
 Y=X;
 printf("%2f\n",Y);
 }
