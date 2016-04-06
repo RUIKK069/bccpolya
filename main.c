@@ -1,12 +1,14 @@
 #include<stdio.h>
-int main()
+double raizq(double);
+int main(void)
 {
-int n,X,Y;
-
-scanf("%d",&n);
-n=(X*X);
+double n,X,Y;
+scanf("%1f",&n);
+X*X=n;
 Y=X;
-printf("%d\n",Y);
-
+printf("%2f\n",Y);
+}
+double raizq(double Y)
+{
 return 0.0;
 }
