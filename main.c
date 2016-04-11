@@ -13,15 +13,15 @@ while (n<=X) {
   if (X>n*n){
   n=n+1;
   }else{
-  if (X=n*n) {
+  if (X==n*n) {
   raiz=n;
   n=X+1;
   }else{
   raizint=n-1;
   n=X+1;
   }}}
-if ((raiz=0)&&(X!=0)){
-  if (Y=0){
+if ((raiz==0)&&(X!=0)){
+  if (Y==0){
   raiz=raizint;
   }else{
   AUX=1;
@@ -31,7 +31,7 @@ if ((raiz=0)&&(X!=0)){
   raizdec=raizdec+(1/(10*Z));
   if (X>raizdec*raizdec){
   }else{
-  if (X=raizdec*raizdec){
+  if (X==raizdec*raizdec){
   AUX=99;
   }else{
   raizdec=raizdec-(1/(10*Z));
