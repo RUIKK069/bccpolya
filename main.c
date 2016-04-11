@@ -40,6 +40,6 @@ if ((raiz=0)&&(X!=0)){
   }}}}
   raiz=raizdec;
   }
-printf("A raiz quadrada de %d é %f",X,raiz)
+printf("A raiz quadrada de %d é %f",X,raiz);
 return 0;
   }
