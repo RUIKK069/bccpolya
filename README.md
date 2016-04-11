@@ -2,8 +2,11 @@ Dscrição do problema:
    Calculo de uma aproximação da raiz quadrada de um numero real.
 
 Apresentação da solução em linguagem matematica:
- n=X*X X=n/X Y=X;
-   
+ Y=0 X=n*n raiz=n n=x+1 raiz=raizint raiz de X=raiz
+      X!=n*n raizint=n-1 n=x+1 raiz=raizint raiz de X=raiz
+ Y!=0 
+                        AUX=1 Z=1 raizdec=raizint raizdec=raizdec+1/(10*Z) X<raizdec*raizdec X=raizdec*raizdec AUX=99 raiz=raizdec raiz de X=raiz
+                                                                           X<raizdec*raizdec X!=raizdec*raizdec raizdec=raizdec-1/(10*Z) AUX=AUX+1 Z=Z*10 raiz=raizdec raiz de X=raiz
 Apresentação da solução em Portugues Estruturado:   
 
  INICIAR                                                                                                                                 
