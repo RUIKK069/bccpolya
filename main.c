@@ -15,6 +15,7 @@ while (n<=X) {
   }else{
   if (X==n*n) {
   raiz=n;
+  raizint=n;
   n=X+1;
   }else{
   raizint=n-1;
