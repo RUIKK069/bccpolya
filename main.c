@@ -8,7 +8,7 @@ raiz=0;
 raizint=0;
 raizdec=0;
 n=0;
-scanf("%d",&X);
+scanf("%1f",&X);
 while (n<=X) {
   if (X>n*n){
   n=n+1;
@@ -40,6 +40,6 @@ if ((raiz=0)&&(X!=0)){
   }}}}
   raiz=raizdec;
   }
-printf("A raiz quadrada de %d é %f",X,raiz);
+printf("A raiz quadrada é %2f\n",raiz);
 return 0;
   }
