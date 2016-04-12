@@ -10,11 +10,34 @@ Apresentação da solução em linguagem matematica:
 Apresentação da solução em Portugues Estruturado:   
 
  INICIAR                                                                                                                                 
-   LER numeros [n,X,Y];                                                                                                                
-    VARIAVEL REAL [n];                                                                                                                 
-    X IGUAL n DIVIDIDO X;                                                                                                              
-    Y IGUAL Y;                                                                                                                         
-    ESCREVA numero REAL [Y];                                                                                                           
+   LER numeros inteiros [Y,Z,n,raizint,AUX];
+   LER numeros reais [X,raiz,raizdec];
+   Y=2;
+   raiz=0;
+   raizint=0;
+   raizdec=0;
+   n=0;
+   VARIAVEL REAL [X];                                                                                                                 
+ENQUANTO (n<=X)                                                                                                                  
+    SE (X>n*n) então n=n+1;
+    senão SE (X==n*n)
+    então raiz=n; raizint=n; n=X+1;
+    senão raizint=n-1; n=X+1;
+    FIM do senão, senão , ENQUANTO
+SE (raiz==0) E (X!=0) então
+   SE (Y==0)
+   então raiz=raizint;
+   senão AUX=1; Z=1; raizdec=raizint;
+   ENQUANTO (AUX<=Y)
+   raizdec=raizdec+(1/(10*Z));
+   SE (X>raizdec*raizdec)
+   senão SE (X==raizdec*raizdec)
+   então AUX=99;
+   senão raizdec=raizdec-(1/(10*Z)); AUX=AUX+1; Z=Z*10;
+   FIM do senão, senão, ENQUANTO, senão
+raiz=raizdec;
+   FIM do SE
+ESCREVER "A raiz quadrada é raiz";
 FIM
 
 Apresentação da solução em Fluxograma:
