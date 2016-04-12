@@ -38,9 +38,9 @@ if ((raiz==0)&&(X!=0)){
   raizdec=raizdec-(1/(10*Z));
   AUX=AUX+1;
   Z=Z*10;
-  }}}}
+  }}}
   raiz=raizdec;
-  }
+  }}
 printf("A raiz quadrada é %2f\n",raiz);
 return 0;
   }
